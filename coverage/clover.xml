@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1635019432437" clover="3.2.0">
+  <project timestamp="1635019432438" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="2" coveredconditionals="2" methods="15" coveredmethods="15" elements="57" coveredelements="57" complexity="0" loc="40" ncloc="40" packages="3" files="5" classes="5"/>
+    <package name="src">
+      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
+      <file name="Person.ts" path="/home/woen/Documents/Projects/pdf-regex-proccessing/src/Person.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="37" count="8" type="stmt"/>
+      </file>
+      <file name="textProcessorFluentAPI.ts" path="/home/woen/Documents/Projects/pdf-regex-proccessing/src/textProcessorFluentAPI.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="48" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="InvalidRegexError.ts" path="/home/woen/Documents/Projects/pdf-regex-proccessing/src/utils/InvalidRegexError.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/woen/Documents/Projects/pdf-regex-proccessing/src/utils/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="26" type="stmt"/>
+        <line num="7" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.mocks">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="valid.ts" path="/home/woen/Documents/Projects/pdf-regex-proccessing/tests/mocks/valid.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

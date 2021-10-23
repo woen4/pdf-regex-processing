@@ -1,13 +1,18 @@
 import fs from 'fs/promises'
 import path from 'path'
 import pdfParse from 'pdf-parse'
-import { TextProcessorFluentAPI } from './textProcessorFluentAPI'
+
+import { TextProcessorFacade } from './textProcessorFacade'
 
 const main = async () => {
   const contractFile = await fs.readFile(path.resolve(__dirname, '..', 'contract-example.pdf'))
   const pdfData = await pdfParse(contractFile)
   const pdfContent = pdfData.text
-  new TextProcessorFluentAPI(pdfContent).extractPeopleData()
+
+  const instance = new TextProcessorFacade(pdfContent)
+  const people = instance.getPeopleFromPdf()
+
+  console.log(people)
 }
 
 main()
