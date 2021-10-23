@@ -1,7 +1,6 @@
 import { Person } from './Person'
 
 class TextProcessorFluentAPI {
-  private originalContent: string;
   public onlyPerson: string[];
   public content: string;
   public textDividedInColumns: string[][];
@@ -9,7 +8,6 @@ class TextProcessorFluentAPI {
   public person: Person[]
 
   constructor (content: string) {
-    this.originalContent = content
     this.content = content
   }
 
@@ -25,7 +23,7 @@ class TextProcessorFluentAPI {
       gmi => global, multiline, insensitive
     */
     const matchPerson = /(?<=[contratada|contratante]:\s{1})(?!\s{1})(.*\n.*?)$/gim
-    const onlyPerson = this.originalContent.match(matchPerson)
+    const onlyPerson = this.content.match(matchPerson)
 
     this.onlyPerson = onlyPerson
     return this
